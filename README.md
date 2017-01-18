@@ -17,13 +17,13 @@ HOW TO
 
 #Install
 
-Run: `npm install -g angular-cli`.
+Run `npm install -g angular-cli`.
 
 After installation, Angular CLI will be available using the `ng` command.
 
 #Generate New Project
 
-Run: `ng new <projectname>`
+Run `ng new <projectname>`
 
 A directory named after your <projectname> will be created.  There are no prompts when creating a new project.  Instead, the project is scaffolded using sensible defaults.
 
@@ -31,7 +31,7 @@ A directory named after your <projectname> will be created.  There are no prompt
 
 New projects can be immediately ran locally without any further setup.
 
-For local deployment, run: `ng serve`
+For local deployment, run `ng serve`.
 
 The CLI will utilize webpack to transpile (TS->JS) and compile your source files and static assets.
 
@@ -39,7 +39,11 @@ Open from your browser at `http://localhost:4200`.
 
 #Build for deployment
 
+Run `ng build`.  
 
+The webpacked files will be outputed to your project's `/dist` folder.
+
+These files can then be dropped to any web server to be served.  I recommend tar'ing the files to make exchanging and deploying easier.
 
 #Generate Components
 
