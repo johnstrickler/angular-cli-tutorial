@@ -8,8 +8,6 @@ HOW TO
 - [Build for deployment](#build-for-deployment)
 - [Generate Components](#generate-components)
 - [Styling Preprocessors](#styling-preprocessors)
-- [Routing](#routing)
-- [Reverse proxy](#reverse-proxy)
 - [Unit Test](#unit-test)
 - [Code Coverage](#code-coverage)
 - [E2E Tests](#e2e-tests)
@@ -66,12 +64,9 @@ There is a good chance that you'll want to use a CSS preprocessor such as SASS. 
 
 That's all there is to it.  The project will now compile SASS down to CSS automagickly. 
 
-#Routing 
-
-
-#Reverse proxy
-
 #Unit Test
+
+Run `ng test` to get execute unit tests.  
 
 #Code Coverage
 
