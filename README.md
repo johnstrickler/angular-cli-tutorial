@@ -47,9 +47,27 @@ These files can then be dropped to any web server to be served.  I recommend tar
 
 #Generate Components
 
+Run `ng generate component <component_name>` to scaffold a new component that generates the following:
+
+- Angular2 code (TypeScript)
+- Styling (CSS)
+- Template (HTML)
+- Unit Test (Spec)
+
+More than just components can be generated.  Try generating the following: `pipe`, `service`, `directive`, and `module`
+
 #Styling Preprocessors
 
+There is a good chance that you'll want to use a CSS preprocessor such as SASS.  Rigging the project for SASS is straightforward and can be done in three simple steps:
+
+1) `npm install -save node-sass`
+2) Edit `angular-cli.json`, change "defaults.styleExt" to "scss" and "apps.styles" to ["styles.scss"]
+3) Change the file extensions of your components' CSS files from ".css" to ".scss"
+
+That's all there is to it.  The project will now compile SASS down to CSS automagickly. 
+
 #Routing 
+
 
 #Reverse proxy
 
