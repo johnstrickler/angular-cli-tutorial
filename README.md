@@ -66,10 +66,22 @@ That's all there is to it.  The project will now compile SASS down to CSS automa
 
 #Unit Test
 
-Run `ng test` to get execute unit tests.  
+Run `ng test` to get execute unit tests.
+
+The unit test configuration is stored in `karma.conf.js`.
 
 #Code Coverage
 
+Run `ng test --code-coverage` to run unit tests and generate a code coverage report.  The default location that the report is written to is the `/coverage` directory in your project.
+
 #E2E Tests
 
+Run `ng e2e` to run your suite of e2e tests.
+
+The e2e configuration is defined in `protractor.conf.js`.
+
 #Linting
+
+Run `ng lint` to run the typescript linter.
+
+The lint configuration is defined in `tslint.json`.
