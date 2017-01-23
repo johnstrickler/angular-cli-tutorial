@@ -1,5 +1,5 @@
 # angular-cli-tutorial
-Getting started with Angular CLI
+Getting started with [angular-cli](https://github.com/angular/angular-cli).
 
 HOW TO
 - [Install](#install)
