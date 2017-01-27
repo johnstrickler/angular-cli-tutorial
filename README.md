@@ -12,6 +12,7 @@ HOW TO
 - [Code Coverage](#code-coverage)
 - [E2E Tests](#e2e-tests)
 - [Linting](#linting)
+- [Proxying](#proxying)
 
 #Install
 
@@ -85,3 +86,9 @@ The e2e configuration is defined in `protractor.conf.js`.
 Run `ng lint` to run the typescript linter.
 
 The lint configuration is defined in `tslint.json`.
+
+#Proxy to a backend
+
+It is likely that you will want to connect a backend to the frontend that Angular CLI generated.  One way is to simply hardcode the backend URL in your Angular2 service.  However, this is not very scalable and it would be difficult to manage that URL across environments.  A scalable solution would be to route all backend calls through a single relative path to your back end such as /api/*.   See Angular CLI's documentation for an example on how to do this:
+
+https://github.com/angular/angular-cli#proxy-to-backend
