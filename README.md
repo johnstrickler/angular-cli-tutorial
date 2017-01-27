@@ -1,7 +1,7 @@
 # angular-cli-tutorial
-Getting started with [angular-cli](https://github.com/angular/angular-cli).
+Getting started with [Angular CLI](https://github.com/angular/angular-cli).  
 
-HOW TO
+John's Quick How-Tos:
 - [Install](#install)
 - [Generate New Project](#generate-new-project)
 - [Run locally](#run-locally)
